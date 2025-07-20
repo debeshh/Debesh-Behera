@@ -225,18 +225,23 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "LeetCode",
+    href: "https://leetcode.com/u/debeessh/",
+    icon: "/assets/socials/leetcode.png",
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/debeshh/",
+    icon: "/assets/socials/github.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/debesh-behera-b32127242/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/debeessh/",
     icon: "/assets/socials/instagram.svg",
   },
 ];

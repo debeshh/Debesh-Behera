@@ -68,8 +68,7 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading text-white">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            If you’re looking to build something from the ground up or simply give your current website a fresh touch, I’m here to guide you every step of the way.
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
@@ -81,7 +80,7 @@ const Contact = () => {
               id="name"
               name="name"
               type="text"
-              className="field-input field-input-focus"
+              className="field-input field-input-focus text-black"
               placeholder="John Doe"
               autoComplete="name"
               value={formData.name}
@@ -97,7 +96,7 @@ const Contact = () => {
               id="email"
               name="email"
               type="email"
-              className="field-input field-input-focus"
+              className="field-input field-input-focus text-black"
               placeholder="JohnDoe@email.com"
               autoComplete="email"
               value={formData.email}
@@ -114,7 +113,7 @@ const Contact = () => {
               name="message"
               type="text"
               rows="4"
-              className="field-input field-input-focus"
+              className="field-input field-input-focus text-black"
               placeholder="Share your thoughts..."
               autoComplete="message"
               value={formData.message}
