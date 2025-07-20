@@ -1,19 +1,19 @@
 import { Canvas, useFrame } from "@react-three/fiber";
 import HeroText from "../components/HeroText";
-import ParallaxBackground from "../components/parallaxBackground";
 import { Spider } from "../components/Spider";
 import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
+import GridBackground from "../components/GridBackground";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
     <section id="home" className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
       <HeroText />
-      <ParallaxBackground />
+      <GridBackground/>
       <figure
         className="absolute inset-0"
         style={{ width: "100vw", height: "100vh" }}

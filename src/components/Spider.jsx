@@ -6,7 +6,7 @@ import { MeshStandardMaterial } from "three";
 
 export function Spider(props) {
   const group = useRef();
-  const { nodes } = useGLTF("/models/spiderman_logo.glb"); // Still using Spider-Man model name
+  const { nodes } = useGLTF("/models/spiderman_logo.glb");
   const yPosition = useMotionValue(5);
   const ySpring = useSpring(yPosition, { damping: 30 });
 
@@ -20,7 +20,7 @@ export function Spider(props) {
 
   return (
     <>
-      {/* Lighting to make model visible */}
+
       <ambientLight intensity={0.2} />
       <directionalLight position={[5, 5, 5]} intensity={1.2} />
 
@@ -29,7 +29,7 @@ export function Spider(props) {
         {...props}
         dispose={null}
         rotation={[-Math.PI / 2, 0, 0]}
-        scale={props.scale || 0.4} // Bigger size
+        scale={props.scale || 0.4}
         position={props.position || [0.9, 4, 1]}
       >
         <mesh
@@ -38,9 +38,9 @@ export function Spider(props) {
           geometry={nodes.Plane_0.geometry}
           rotation={[Math.PI / 2, 0, 0]}
         >
-          {/* Hulk Colors: green body + purple tint */}
+
           <meshStandardMaterial
-            color={"brown"} // Hulk green
+            color={"brown"} 
             roughness={0.5}
             metalness={0.1}
           />

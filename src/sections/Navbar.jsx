@@ -56,10 +56,17 @@ const Navbar = () => {
       {isOpen && (
         <motion.div
           className="block overflow-hidden text-center sm:hidden"
-          initial={{ opacity: 0, x: -10 }}
-          animate={{ opacity: 1, x: 0 }}
-          style={{ maxHeight: "100vh" }}
-          transition={{ duration: 1 }}
+          initial={{ opacity: 0, y: -50, scale: 0.9, rotateX: -15 }}
+          animate={{ opacity: 1, y: 0, scale: 1, rotateX: 0 }}
+          exit={{ opacity: 0, y: -30, scale: 0.95, rotateX: -10 }}
+          transition={{
+            duration: 0.6,
+            ease: [0.22, 1, 0.36, 1],
+          }}
+          style={{
+            maxHeight: "100vh",
+            transformOrigin: "top center",
+          }}
         >
           <nav className="pb-5">
             <Navigation />

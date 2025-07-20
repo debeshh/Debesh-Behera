@@ -2,6 +2,7 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
+import { motion } from "motion/react";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -51,7 +52,10 @@ const Contact = () => {
     }
   };
   return (
-    <section id="contact" className="relative flex items-center c-space section-spacing">
+    <section
+      id="contact"
+      className="relative flex items-center c-space section-spacing"
+    >
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
@@ -118,12 +122,15 @@ const Contact = () => {
               required
             />
           </div>
-          <button
+          <motion.button
+            whileHover={{ scale: 1 }}
+            whileTap={{ scale: 0.7 }}
+            onHoverStart={() => console.log("hover started!")}
             type="submit"
             className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-red-700 hover-animation"
           >
             {!isLoading ? "Send" : "Sending..."}
-          </button>
+          </motion.button>
         </form>
       </div>
     </section>
