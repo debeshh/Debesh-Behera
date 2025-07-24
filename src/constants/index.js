@@ -1,70 +1,69 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Lost and Found Website",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "This website is built to help users reunite with their lost belongings by reporting and tracking found items in their community.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "FindMyThing is a full-stack web application designed to help users efficiently report and recover lost and found items within a campus or community. Built using the MERN stack (MongoDB, Express.js, React, Node.js), the platform features user authentication, image uploads, and profile management. Users can create a profile, view and manage their posts, and update their personal information and passwords. The clean, responsive design ensures a seamless user experience across devices, while intuitive forms and dropdowns make reporting items quick and user-friendly. This project showcases strong skills in front-end UI, secure back-end API handling, and full-stack integration."
     ],
-    href: "",
+    href: "https://find-my-things-9n23.onrender.com/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/find-my-thing.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Node.js",
+        path: "/assets/logos/node-js.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "Express JS",
+        path: "/assets/logos/express-js.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Mongo DB",
+        path: "/assets/logos/mongo-db.svg",
+      },
+      {
+        id: 5,
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Portfolio Website",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A responsive portfolio built with React, Vite, Tailwind CSS, Framer Motion, and 3D models clean, fast, and visually engaging.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "A modern, responsive portfolio website built using React, Vite, and Tailwind CSS, designed to showcase my work with smooth Framer Motion animations and an interactive 3D model integration. The site delivers a fast, seamless experience across devices, with a minimal yet visually engaging design that highlights creativity, performance, and technical skill.",
     ],
-    href: "",
+    href: "https://debesh.netlify.app/",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/portfolio.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
+        id: 2,
+        name: "Vite",
+        path: "/assets/logos/vitejs.svg",
+      },
+      {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "Motion",
+        path: "/assets/logos/motion.png",
       },
       {
         id: 4,
@@ -75,149 +74,40 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Charls-Tyrwhitt-Clone",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A fully responsive Charles Tyrwhitt e-commerce clone built with React, Vite, Chakra UI, and CSS. Features include authentication using Context API, mock backend with db.json, and seamless UI/UX for product browsing and user login.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      [
+  "Developed a fully responsive e-commerce Single Page Application (SPA) using React and Vite.",
+  "Implemented user authentication using Context API for secure login and session management.",
+  "Styled the application using Chakra UI and custom CSS for a modern and clean interface.",
+  "Utilized db.json to simulate a backend and manage product and user data efficiently.",
+]
     ],
-    href: "",
+    href: "https://charlestyrwhitt-clone.netlify.app/",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/charls.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
+        name: "Vite",
         path: "/assets/logos/vitejs.svg",
       },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "Chakra UI",
+        path: "/assets/logos/chakra-ui.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "CSS",
+        path: "/assets/logos/css.svg",
       },
     ],
   },
@@ -248,86 +138,34 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
+  title: "SEO and Digital Marketing Intern",
+  job: "Syllogistek Systems",
+  date: "Aug 2023",
+  contents: [
+    "Created email marketing campaigns using Mailchimp to improve customer communication and retention.",
+    "Researched and applied effective SEO keywords to enhance search visibility and drive organic traffic.",
+    "Planned and managed Facebook and Google Ads campaigns to increase website visits and generate leads.",
+    "Promoted the in-house clothing brand 'TeeSuki' on social media, enhancing brand recognition and engagement."
+  ],
+},
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
+  title: "Full Stack Web Development Intern",
+  job: "Codebeat",
+  date: "Aug 2024",
+  contents: [
+    "Developed a full-stack eCommerce clone of Charles Tyrwhitt using the MERN stack with secure authentication, dynamic product listings, and cart functionality.",
+    "Built a responsive UI with React and custom CSS, optimizing performance with Vite for faster load times.",
+    "Simulated backend using db.json to create RESTful endpoints for seamless frontend integration and testing.",
+    "Utilized Git for version control and deployed the application on Netlify."
+  ],
+},
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
-];
-export const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
+  title: "Freelance Developer",
+  job: "Self-Employed",
+  date: "2025–Present",
+  contents: [
+    "Designed and developed a personal portfolio using React, Vite, and custom CSS to showcase projects and skills.",
+    "Continually exploring modern web technologies and building projects to strengthen full-stack development expertise."
+  ],
+},
 ];
