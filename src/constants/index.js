@@ -5,7 +5,7 @@ export const myProjects = [
     description:
       "This website is built to help users reunite with their lost belongings by reporting and tracking found items in their community.",
     subDescription: [
-      "FindMyThing is a full-stack web application designed to help users efficiently report and recover lost and found items within a campus or community. Built using the MERN stack (MongoDB, Express.js, React, Node.js), the platform features user authentication, image uploads, and profile management. Users can create a profile, view and manage their posts, and update their personal information and passwords. The clean, responsive design ensures a seamless user experience across devices, while intuitive forms and dropdowns make reporting items quick and user-friendly. This project showcases strong skills in front-end UI, secure back-end API handling, and full-stack integration."
+      "FindMyThing is developed using the MERN stack (MongoDB, Express.js, React, Node.js). It includes user authentication, image uploads, profile and post management, and location tagging. The platform supports seamless login/signup, quick item reporting via forms, and a user dashboard for managing activity. Designed for accessibility and mobile responsiveness, it helps users track lost items efficiently while showcasing full-stack development skills and a practical, community-focused solution."
     ],
     href: "https://find-my-things-9n23.onrender.com/",
     logo: "",
