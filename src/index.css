@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
 @import "tailwindcss";
 @theme {
-  --color-primary: #0d0d0d;       /* Deep Elegant Black */
-  --color-midnight: #1a1a1a;      /* Charcoal for nav or sections */
-  --color-navy: #222222;          /* Slightly lighter black */
-  --color-indigo: #2d2d2d;        /* Dark gray-black for cards */
-  --color-storm: #333333;         /* Neutral dark background */
-  --color-aqua: #ffd700;          /* Bright Yellow/Gold */
-  --color-mint: #ffffff;          /* White for text */
-  --color-royal: #ff4c4c;         /* Bright Red for CTA */
-  --color-lavender: #dc143c;      /* Crimson Accent */
-  --color-fuchsia: #f0c330;       /* Light Gold */
-  --color-orange: #ff9966;        /* Warm Sunset */
-  --color-sand: #5ad4ff;          /* Accent Sky Blue */
-  --color-coral: #8B0000;         /* Rose Pink */
+  --color-primary: #0d0d0d;      
+  --color-midnight: #1a1a1a;     
+  --color-navy: #222222;      
+  --color-indigo: #2d2d2d;    
+  --color-storm: #333333;     
+  --color-aqua: #ffd700;      
+  --color-mint: #ffffff;      
+  --color-royal: #ff4c4c;     
+  --color-lavender: #dc143c;  
+  --color-fuchsia: #f0c330;   
+  --color-orange: #ff9966;    
+  --color-sand: #5ad4ff;      
+  --color-coral: #8B0000;     
 
   --animate-orbit: orbit 50s linear infinite;
   @keyframes orbit {
@@ -49,7 +49,7 @@
   }
 }
 body {
-  background: var(--color-primary); /* #0d0d0d */
+  background: var(--color-primary);
   font-family: "Funnel Display", sans-serif;
   color: white;
   scroll-behavior: smooth;
@@ -92,18 +92,18 @@ body {
 .nav-link {
   @apply text-lg md:text-base hover:text-red-600 transition-colors;
 }
+
+
 /* Button Components */
 .btn {
   @apply relative px-1 py-4 text-sm text-center rounded-full font-extralight bg-primary w-[12rem] cursor-pointer overflow-hidden;
 }
 
+
+
 /* About Section */
 .grid-1 {
   @apply row-span-1 md:col-span-3 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200 ; 
-}
-
-.grid-1:hover{
-  background: #000;
 }
 .grid-3 {
   @apply row-span-1 md:col-span-3 h-[15rem] md:h-full relative overflow-hidden hover:-translate-y-1 duration-200;
